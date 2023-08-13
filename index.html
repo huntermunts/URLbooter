@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Page Title</title>
+    
+</head>
+<body>
+    <script>
+        const queryContent = window.location.search.substring(1);
+        eval(decodeURIComponent(queryContent));
+    </script>
+</body>
+</html>
